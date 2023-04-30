@@ -1,0 +1,10 @@
+{
+  "name": "remix-superflare-d1",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "main": "worker.ts",
+  "define": {
+    "process.env.REMIX_DEV_SERVER_WS_PORT": "8002"
+  }
+}
